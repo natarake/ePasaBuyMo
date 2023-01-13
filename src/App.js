@@ -28,15 +28,18 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      <Routes>
-        <Route path="/" element={<Home />} />
+     <Routes>
+        <Route path="/" element={user ? <Home /> : <Login />} />
         <Route path="/cart" element={<CartList />} />
         <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/admin" element={<Dashboard />} />
         <Route path="/products/:id" element={<UpdateProduct />} />
         <Route path="/products" element={<CreateProduct />} />
         <Route path="/request" element={<Request />} />
-        <Route path="/login" element={<Login />}></Route>
+        <Route
+          path="/login"
+          element={user ? <Navigate to="/" replace /> : <Login />}
+        ></Route>
         <Route path="/register" element={<Register />} />
       </Routes>
     </div>
