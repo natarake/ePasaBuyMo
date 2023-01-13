@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://vercel.com/e-pasa-buy-mo-backend/api";
+const BASE_URL = "https://e-pasa-buy-mo-backend.vercel.app/api";
 const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
 const currentUser = user && JSON.parse(user).currentUser;
 const TOKEN = currentUser?.accessToken;
