@@ -29,7 +29,7 @@ function App() {
         theme="light"
       />
       <Routes>
-        <Route path="/" element={user ? <Home /> : <Login />} />
+        <Route path="/" element={<Home />} />
         <Route path="/cart" element={<CartList />} />
         <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/admin" element={<Dashboard />} />
