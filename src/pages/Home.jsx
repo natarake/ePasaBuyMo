@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Products from "../components/Products";
+import Slider from "../components/Slider";
 
 const Home = () => {
   return (
     <div>
-      <Link to="/register">Home</Link>
+      <Navbar />
+      <Slider />
+      <Products />
+      <Footer />
     </div>
   );
 };
