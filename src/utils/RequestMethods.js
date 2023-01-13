@@ -7,6 +7,7 @@ const TOKEN = currentUser?.accessToken;
 
 export const publicRequest = axios.create({
   baseURL: BASE_URL,
+  headers: {"Access-Control-Allow-Origin": "*"}
 });
 
 export const userRequest = axios.create({
