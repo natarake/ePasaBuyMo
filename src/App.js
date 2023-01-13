@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Request from "./pages/Request";
 
 function App() {
-//   const user = useSelector((state) => state.user.currentUser);
+  const user = useSelector((state) => state.user.currentUser);
   return (
     <div className="App">
       <ToastContainer
@@ -36,10 +36,7 @@ function App() {
         <Route path="/products/:id" element={<UpdateProduct />} />
         <Route path="/products" element={<CreateProduct />} />
         <Route path="/request" element={<Request />} />
-        <Route
-          path="/login"
-          element={<Login />}
-        ></Route>
+        <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />} />
       </Routes>
     </div>
