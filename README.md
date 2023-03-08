@@ -1,6 +1,6 @@
-# Recipe App
+# ePasaBuyMo
 
-![RecipeApp](https://i.ibb.co/7Wgbk3Z/e-Pasa-Buy-Mo.png)
+![ePasaBuyMo](https://i.ibb.co/7Wgbk3Z/e-Pasa-Buy-Mo.png)
 
 ePasaBuyMo is a capstone project that I developed during my participation in the Kodego bootcamp. The Kodego bootcamp is an intensive coding program that provides aspiring developers with the skills and knowledge necessary to become successful full-stack web developers.
 
@@ -10,7 +10,7 @@ Through the development of ePasaBuyMo, I was able to gain hands-on experience in
 
 The development of ePasaBuyMo also allowed me to sharpen my problem-solving skills as I encountered various challenges and obstacles along the way. Through persistence, creativity, and collaboration with my fellow bootcamp participants, I was able to overcome these challenges and develop a high-quality web application that meets the needs of "pasa-buy" entrepreneurs who need a reliable and feature-rich web application to manage their business operations effectively.
 
-## What are the features of Google Books App
+## What are the features of ePasaBuyMo
 
 The ePasaBuyMo web application offers two levels of access, namely the user level and the admin level, which cater to different functionalities and user requirements. The user level can register using their email and password or via Google popup, and can login using either their email and password or the Google popup option. Once users are logged in, they can access the homepage, which displays products stored in MongoDB, and is fetched using the ExpressJS framework. Users can filter products by category and search for specific products using the search bar.
 
